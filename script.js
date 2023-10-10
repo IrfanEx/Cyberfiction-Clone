@@ -443,11 +443,3 @@ function locomotive() {
       scroller:`#main`
     }
   })
-
-  function showDate() {
-    const date = new Date('2023-10-06');
-    const month = date.toLocaleString('en-US', { month: 'long' });
-    const year = date.getFullYear();
-    const formattedDate = `${month}, ${year}`;
-    document.querySelector('button').textContent = formattedDate;
-  }
